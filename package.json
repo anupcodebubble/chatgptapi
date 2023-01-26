@@ -1,0 +1,36 @@
+{
+  "name": "@waylaidwanderer/chatgpt-api",
+  "version": "0.2.11",
+  "description": "An API layer for ChatGPT, powered by @transitive-bullshit's chatgpt-api (chatgpt on npm).",
+  "main": "index.js",
+  "bin": {
+    "chatgpt-api": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "xvfb-run node index.js"
+  },
+  "author": "waylaidwanderer",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waylaidwanderer/node-chatgpt-api.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "chatgpt-api",
+    "openai",
+    "openai-api",
+    "gpt",
+    "gpt3",
+    "api",
+    "api-wrapper"
+  ],
+  "dependencies": {
+    "chatgpt": "^3.3.11",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.11.0",
+    "puppeteer": "^19.4.1"
+  }
+}
